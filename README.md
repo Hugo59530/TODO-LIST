@@ -1,3 +1,4 @@
-# java 
-code par moi 
-il est pas terrible mais il fonctionne c'est l'essentiel
+# Java To do list
+>Code par Hugo H
+
+Fonctionnel et existant.
