@@ -1,5 +1,5 @@
 # Java To do list
->Code par Hugo H, léger refactor par Amnezzia
+>Code par Hugo H, léger refactor par Amnezzia.
 
 ## To Do
 
