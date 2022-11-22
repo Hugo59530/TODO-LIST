@@ -1,4 +1,4 @@
-package bo.Task;
+package bo;
 
 public class AddTask {
     

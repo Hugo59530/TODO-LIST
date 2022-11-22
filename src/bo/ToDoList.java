@@ -1,15 +1,13 @@
-package bo.Task;
+package bo;
 
 public class ToDoList {
     public int nbrTask = 0;
     public int nbrMaxTask;
     public Task[] task;
 
-
     public ToDoList(int nbrMaxTask) {
         this.nbrMaxTask = nbrMaxTask;
         task = new Task[nbrMaxTask];
-
     }
 
     public void add(Task an) {
@@ -18,8 +16,9 @@ public class ToDoList {
             task[nbrTask] = an;
             nbrTask++;
             System.out.println("Task Added");
-        } else
+        } else {
             System.out.println("Erreur");
+        }    
     }
 
     public void listTask() {
@@ -27,14 +26,13 @@ public class ToDoList {
         for (int i = 0; i < nbrMaxTask; i++) {
             if (task[i] != null) {
                 String result = task[i].getTask();
-                System.out.println("tache :"+i+"\n"+result+"\n--------------");
-
+                System.out.println("Tache :"+i+"\n"+result+"\n--------------");
             }
             if (task[i]== null){
                 vide+=1;
             }
         }
-        if (vide == nbrMaxTask){
+        if (vide == nbrMaxTask) {
             System.out.println("Liste vide");
         }
     }

@@ -1,4 +1,4 @@
-package bo.Task;
+package bo;
 
 public class Task {
     public String name;
@@ -15,8 +15,8 @@ public class Task {
 
     public String getTask(){
         System.out.println("Nom :"+name+ "\n" +
-                " Description de la tache : "+description+"\n " +
-                "Statut de la tache : "+statut);
+                "Description de la tache : " + description + "\n " +
+                "Statut de la tache : " + statut);
         return "";
     }
 }
